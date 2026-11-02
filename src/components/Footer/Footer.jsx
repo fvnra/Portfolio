@@ -1,9 +1,9 @@
 const links = [
-  { label: "About", href: "#about" },
-  { label: "Stack", href: "#skills" },
-  { label: "Work", href: "#projects" },
-  { label: "Experience", href: "#experience" },
-  { label: "Contact", href: "#contact" },
+  { label: 'About', href: '#about' },
+  { label: 'Stack', href: '#skills' },
+  { label: 'Work', href: '#projects' },
+  { label: 'Experience', href: '#experience' },
+  { label: 'Contact', href: '#contact' },
 ];
 
 export default function Footer() {
@@ -15,14 +15,12 @@ export default function Footer() {
       <div className="border-b border-border py-12 md:py-16 px-4 md:px-6 max-w-container mx-auto">
         <div className="flex flex-col md:flex-row md:items-center justify-between gap-6">
           <div>
-            <p className="font-mono text-label text-ink-3 uppercase tracking-widest mb-2">
-              Currently available
-            </p>
+            <p className="font-mono text-label text-ink-3 uppercase tracking-widest mb-2">Currently available</p>
             <h3
               className="font-grotesk font-bold text-ink"
               style={{
-                fontSize: "clamp(1.5rem, 3vw, 2.25rem)",
-                letterSpacing: "-0.02em",
+                fontSize: 'clamp(1.5rem, 3vw, 2.25rem)',
+                letterSpacing: '-0.02em',
               }}
             >
               Open to new opportunities
@@ -33,7 +31,7 @@ export default function Footer() {
             className="shrink-0 px-6 py-3 text-sm font-medium bg-ink text-paper rounded-lg
               hover:bg-ink/80 transition-all duration-150 active:scale-95 self-start md:self-center"
           >
-            Let's talk →
+            Let's talk
           </a>
         </div>
       </div>
@@ -67,7 +65,7 @@ export default function Footer() {
 
           {/* Socials */}
           <div className="flex gap-4">
-            {["GH", "LI", "TW"].map((s) => (
+            {['GH', 'LI', 'TW'].map((s) => (
               <a
                 key={s}
                 href="#"
